@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thornbound Ledger – Datenschutz</title>
+  <link rel="canonical" href="https://digi951.github.io/duesterwald_kampagnenbuch-site/privacy/">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f2ede4;
+      --card: #faf7f2;
+      --text: #1e1812;
+      --muted: #6b5f52;
+      --accent: #8b4a1a;
+      --border: #e0d4c4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top right, #fdf0d8 0, transparent 28rem),
+        linear-gradient(180deg, #f7f1e6 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+
+    .hero,
+    .card {
+      background: rgba(250, 247, 242, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: 0 18px 60px rgba(30, 24, 18, 0.08);
+    }
+
+    .hero {
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+      font-size: clamp(2.1rem, 5vw, 3.4rem);
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .nav {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .nav a + a {
+      margin-left: 14px;
+    }
+
+    footer {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thornbound Ledger</p>
+      <h1>Datenschutzerklaerung</h1>
+      <p>
+        Thornbound Ledger ist eine Kampagnen-Chronik zur privaten Verwaltung von
+        Spielstaenden. Der Schutz deiner Daten ist wichtig. Diese Seite beschreibt,
+        welche Daten die App verarbeitet und wie damit umgegangen wird.
+      </p>
+      <p class="nav">
+        <a href="https://digi951.github.io/duesterwald_kampagnenbuch-site/">Startseite</a>
+        <a href="https://digi951.github.io/duesterwald_kampagnenbuch-site/support/">Support</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. Welche Daten Thornbound Ledger speichert</h2>
+      <p>Thornbound Ledger kann folgende Inhalte speichern, die du selbst in der App eingibst:</p>
+      <ul>
+        <li>Kampagnenname, Kapitel, Schwierigkeitsgrad und Notizen</li>
+        <li>Charakternamen, Klassen, HP, Ressourcen und Token-Staende</li>
+        <li>Inventar, Verletzungen und Hinweise</li>
+        <li>Verbündete, Ereigniskarten und Company Traits</li>
+        <li>Inhalte aus selbst erstellten Content-Packs (JSON-Dateien, die du importierst)</li>
+        <li>Lokale App-Einstellungen wie das Interface-Design</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>2. Wo diese Daten gespeichert werden</h2>
+      <p>
+        Alle von dir in Thornbound Ledger erfassten Daten werden lokal auf deinem Geraet
+        gespeichert. Die App uebertraegt diese Inhalte nicht an Server des Entwicklers.
+      </p>
+      <p>
+        Eine geraeteuebergreifende Synchronisation ueber iCloud ist fuer eine zukuenftige
+        Version geplant. In der aktuellen Version bleiben alle Daten lokal auf dem Geraet,
+        auf dem du sie eingegeben hast.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. Content-Packs</h2>
+      <p>
+        Thornbound Ledger ermoeglicht den Import eigener JSON-Dateien mit spielspezifischen
+        Inhalten (z. B. Gegenstaende, Klassen, Verletzungen). Diese Dateien erstellst du
+        selbst – die App sendet sie nicht an Dritte und speichert sie nur lokal auf deinem Geraet.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. Datenweitergabe</h2>
+      <p>
+        Thornbound Ledger verkauft keine personenbezogenen Daten und gibt keine von dir
+        in der App erfassten Inhalte zu Werbezwecken an Dritte weiter.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Deine Kontrolle ueber Daten</h2>
+      <p>
+        Du kannst Kampagnen und alle zugehoerigen Daten jederzeit direkt in der App loeschen.
+        Wenn du die App entfernst, werden lokal gespeicherte Daten im Rahmen des iOS-Systems
+        ebenfalls entfernt, soweit sie an die App gebunden sind.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Kontakt</h2>
+      <p>
+        Wenn du Fragen zum Datenschutz in Bezug auf Thornbound Ledger hast, kannst du dich
+        hier melden: <a href="mailto:korneal-huette-0y@icloud.com">korneal-huette-0y@icloud.com</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>English Summary</h2>
+      <p>
+        Thornbound Ledger stores the content you create in the app — campaign data, characters,
+        inventory, injuries, clues, and app settings — locally on your device. The app does not
+        send this content to the developer's servers.
+      </p>
+      <p>
+        Cross-device sync via iCloud is planned for a future update. In the current version,
+        all data remains local to the device you use.
+      </p>
+      <p>
+        The app supports importing your own JSON content packs. These files are only stored
+        locally and are not transmitted to any third party.
+      </p>
+      <p>
+        Privacy contact: <a href="mailto:korneal-huette-0y@icloud.com">korneal-huette-0y@icloud.com</a>
+      </p>
+    </section>
+
+    <footer>
+      Privacy Policy URL: <a href="https://digi951.github.io/duesterwald_kampagnenbuch-site/privacy/">https://digi951.github.io/duesterwald_kampagnenbuch-site/privacy/</a><br>
+      Last updated: June 10, 2026
+    </footer>
+  </main>
+</body>
+</html>
 
